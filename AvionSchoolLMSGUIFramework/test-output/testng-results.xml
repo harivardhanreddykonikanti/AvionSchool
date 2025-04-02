@@ -1,151 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-02T20:17:20 IST" name="Suite" finished-at="2025-04-02T20:21:34 IST" duration-ms="254565">
+  <suite started-at="2025-04-02T23:12:14 IST" name="Default suite" finished-at="2025-04-02T23:13:28 IST" duration-ms="73625">
     <groups>
       <group name="systemtest">
-        <method signature="Admin_To_Student_Messaging_Test.AdminMessaging()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" name="AdminMessaging" class="TestCases.Admin_To_Student_Messaging_Test"/>
-        <method signature="Admin_To_Student_Messaging_Test.Admin_Enroll_course()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" name="Admin_Enroll_course" class="TestCases.Admin_To_Student_Messaging_Test"/>
-        <method signature="Admin_To_Student_Messaging_Test.createcategory()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" name="createcategory" class="TestCases.Admin_To_Student_Messaging_Test"/>
-        <method signature="Admin_To_Student_Messaging_Test.deleting_student()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" name="deleting_student" class="TestCases.Admin_To_Student_Messaging_Test"/>
+        <method signature="Admin_To_Student_Messaging_Test.createcategory()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@909217e]" name="createcategory" class="TestCases.Admin_To_Student_Messaging_Test"/>
       </group> <!-- systemtest -->
-      <group name="smoketest">
-        <method signature="Admin_To_Student_Messaging_Test.coursepageverify()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" name="coursepageverify" class="TestCases.Admin_To_Student_Messaging_Test"/>
-        <method signature="Admin_To_Student_Messaging_Test.dashboardverify()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" name="dashboardverify" class="TestCases.Admin_To_Student_Messaging_Test"/>
-      </group> <!-- smoketest -->
-      <group name="integrationtest">
-        <method signature="Admin_To_Student_Messaging_Test.DeletingStudentusingemailid()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" name="DeletingStudentusingemailid" class="TestCases.Admin_To_Student_Messaging_Test"/>
-        <method signature="Admin_To_Student_Messaging_Test.deleteenrollment()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" name="deleteenrollment" class="TestCases.Admin_To_Student_Messaging_Test"/>
-      </group> <!-- integrationtest -->
     </groups>
-    <test started-at="2025-04-02T20:17:20 IST" name="Test-2" finished-at="2025-04-02T20:20:43 IST" duration-ms="203281">
+    <test started-at="2025-04-02T23:12:14 IST" name="Default test" finished-at="2025-04-02T23:13:28 IST" duration-ms="73625">
       <class name="TestCases.Admin_To_Student_Messaging_Test">
-        <test-method is-config="true" signature="configBeforeSuit()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" started-at="2025-04-02T20:17:18 IST" name="configBeforeSuit" finished-at="2025-04-02T20:17:20 IST" duration-ms="1580" status="PASS">
+        <test-method is-config="true" signature="configBeforeSuit()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@909217e]" started-at="2025-04-02T23:12:13 IST" name="configBeforeSuit" finished-at="2025-04-02T23:12:14 IST" duration-ms="803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeSuit -->
-        <test-method is-config="true" signature="configbeforeclass()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" started-at="2025-04-02T20:17:20 IST" name="configbeforeclass" finished-at="2025-04-02T20:17:23 IST" duration-ms="3490" status="PASS">
+        <test-method is-config="true" signature="configbeforeclass()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@909217e]" started-at="2025-04-02T23:12:14 IST" name="configbeforeclass" finished-at="2025-04-02T23:12:17 IST" duration-ms="2478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configbeforeclass -->
-        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" started-at="2025-04-02T20:17:23 IST" name="configbeforemethod" finished-at="2025-04-02T20:18:04 IST" duration-ms="40522" status="PASS">
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@909217e]" started-at="2025-04-02T23:12:17 IST" name="configbeforemethod" finished-at="2025-04-02T23:12:44 IST" duration-ms="27735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configbeforemethod -->
-        <test-method signature="DeletingStudentusingemailid()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" started-at="2025-04-02T20:18:04 IST" name="DeletingStudentusingemailid" finished-at="2025-04-02T20:18:52 IST" duration-ms="47986" status="PASS">
+        <test-method signature="createcategory()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@909217e]" started-at="2025-04-02T23:12:44 IST" name="createcategory" finished-at="2025-04-02T23:13:11 IST" duration-ms="26749" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DeletingStudentusingemailid -->
-        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" started-at="2025-04-02T20:18:52 IST" name="configaftermethod" finished-at="2025-04-02T20:19:05 IST" duration-ms="13167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configaftermethod -->
-        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" started-at="2025-04-02T20:19:05 IST" name="configbeforemethod" finished-at="2025-04-02T20:19:14 IST" duration-ms="9026" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configbeforemethod -->
-        <test-method signature="deleteenrollment()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" started-at="2025-04-02T20:19:14 IST" name="deleteenrollment" finished-at="2025-04-02T20:19:29 IST" duration-ms="15268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteenrollment -->
-        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" started-at="2025-04-02T20:19:29 IST" name="configaftermethod" finished-at="2025-04-02T20:19:43 IST" duration-ms="13111" status="PASS">
+        </test-method> <!-- createcategory -->
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@909217e]" started-at="2025-04-02T23:13:11 IST" name="configaftermethod" finished-at="2025-04-02T23:13:24 IST" duration-ms="13201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configaftermethod -->
-        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" started-at="2025-04-02T20:19:43 IST" name="configbeforemethod" finished-at="2025-04-02T20:19:54 IST" duration-ms="11451" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configbeforemethod -->
-        <test-method signature="dashboardverify()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" started-at="2025-04-02T20:19:54 IST" name="dashboardverify" finished-at="2025-04-02T20:19:55 IST" duration-ms="704" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dashboardverify -->
-        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" started-at="2025-04-02T20:19:55 IST" name="configaftermethod" finished-at="2025-04-02T20:20:09 IST" duration-ms="14443" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configaftermethod -->
-        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" started-at="2025-04-02T20:20:09 IST" name="configbeforemethod" finished-at="2025-04-02T20:20:23 IST" duration-ms="13584" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configbeforemethod -->
-        <test-method signature="coursepageverify()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" started-at="2025-04-02T20:20:23 IST" name="coursepageverify" finished-at="2025-04-02T20:20:24 IST" duration-ms="1490" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- coursepageverify -->
-        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" started-at="2025-04-02T20:20:24 IST" name="configaftermethod" finished-at="2025-04-02T20:20:40 IST" duration-ms="15517" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configaftermethod -->
-        <test-method is-config="true" signature="configafterclass()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" started-at="2025-04-02T20:20:40 IST" name="configafterclass" finished-at="2025-04-02T20:20:43 IST" duration-ms="3418" status="PASS">
+        <test-method is-config="true" signature="configafterclass()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@909217e]" started-at="2025-04-02T23:13:24 IST" name="configafterclass" finished-at="2025-04-02T23:13:28 IST" duration-ms="3360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configafterclass -->
-        <test-method is-config="true" signature="configAftersuit()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@4bdeaabb]" started-at="2025-04-02T20:21:34 IST" name="configAftersuit" finished-at="2025-04-02T20:21:34 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="configAftersuit()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@909217e]" started-at="2025-04-02T23:13:28 IST" name="configAftersuit" finished-at="2025-04-02T23:13:28 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAftersuit -->
       </class> <!-- TestCases.Admin_To_Student_Messaging_Test -->
-    </test> <!-- Test-2 -->
-    <test started-at="2025-04-02T20:17:20 IST" name="Test-1" finished-at="2025-04-02T20:21:34 IST" duration-ms="254565">
-      <class name="TestCases.Admin_To_Student_Messaging_Test">
-        <test-method is-config="true" signature="configbeforeclass()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" started-at="2025-04-02T20:17:20 IST" name="configbeforeclass" finished-at="2025-04-02T20:17:24 IST" duration-ms="3803" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configbeforeclass -->
-        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" started-at="2025-04-02T20:17:24 IST" name="configbeforemethod" finished-at="2025-04-02T20:18:09 IST" duration-ms="44851" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configbeforemethod -->
-        <test-method signature="AdminMessaging()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" started-at="2025-04-02T20:18:09 IST" name="AdminMessaging" finished-at="2025-04-02T20:18:24 IST" duration-ms="15164" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AdminMessaging -->
-        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" started-at="2025-04-02T20:18:24 IST" name="configaftermethod" finished-at="2025-04-02T20:18:38 IST" duration-ms="13907" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configaftermethod -->
-        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" started-at="2025-04-02T20:18:38 IST" name="configbeforemethod" finished-at="2025-04-02T20:18:46 IST" duration-ms="8727" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configbeforemethod -->
-        <test-method signature="Admin_Enroll_course()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" started-at="2025-04-02T20:18:46 IST" name="Admin_Enroll_course" finished-at="2025-04-02T20:18:58 IST" duration-ms="11365" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Admin_Enroll_course -->
-        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" started-at="2025-04-02T20:18:58 IST" name="configaftermethod" finished-at="2025-04-02T20:19:11 IST" duration-ms="13331" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configaftermethod -->
-        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" started-at="2025-04-02T20:19:11 IST" name="configbeforemethod" finished-at="2025-04-02T20:19:21 IST" duration-ms="9885" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configbeforemethod -->
-        <test-method signature="deleting_student()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" started-at="2025-04-02T20:19:21 IST" name="deleting_student" finished-at="2025-04-02T20:20:07 IST" duration-ms="45810" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleting_student -->
-        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" started-at="2025-04-02T20:20:07 IST" name="configaftermethod" finished-at="2025-04-02T20:20:22 IST" duration-ms="15133" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configaftermethod -->
-        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" started-at="2025-04-02T20:20:22 IST" name="configbeforemethod" finished-at="2025-04-02T20:20:32 IST" duration-ms="10173" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configbeforemethod -->
-        <test-method signature="createcategory()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" started-at="2025-04-02T20:20:32 IST" name="createcategory" finished-at="2025-04-02T20:21:00 IST" duration-ms="28309" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createcategory -->
-        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" started-at="2025-04-02T20:21:00 IST" name="configaftermethod" finished-at="2025-04-02T20:21:31 IST" duration-ms="30716" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configaftermethod -->
-        <test-method is-config="true" signature="configafterclass()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@18271936]" started-at="2025-04-02T20:21:31 IST" name="configafterclass" finished-at="2025-04-02T20:21:34 IST" duration-ms="3300" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configafterclass -->
-      </class> <!-- TestCases.Admin_To_Student_Messaging_Test -->
-    </test> <!-- Test-1 -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

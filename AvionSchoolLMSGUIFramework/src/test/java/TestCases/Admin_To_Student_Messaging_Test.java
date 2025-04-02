@@ -266,12 +266,13 @@ public class Admin_To_Student_Messaging_Test extends Baseclass {
 		boolean flag=false;
 		acnp.getSavebutton().click();
 		UtilityClassObject.getTest().log(Status.INFO,"clicked on the save button");
+		Thread.sleep(2000);
 		//reading pop message
 		String message = ahp.getPopupnotification().getText();
 		UtilityClassObject.getTest().log(Status.INFO,"captured pop up notification message");
 		Assert.assertEquals(message,popmessage);
-		Thread.sleep(2000);
 		//validating category at the category page
+		Thread.sleep(2000);
 		ahp.getCategoiressublink().click();
 		UtilityClassObject.getTest().log(Status.INFO,"clicked on categoires link");
 		Thread.sleep(1000);
