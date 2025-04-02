@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+		<listeners>
+		<listener class-name="com.AvionSchool.lms.listenerutlity.ListnerimplementatationClass"></listener>
+	</listeners>
+  <test name="Test-1">
+    <classes>
+      <class name="TestCases.Admin_To_Student_Messaging_Test">
+		<methods>
+			<include name="AdminMessaging"/>
+			<include name="Admin_Enroll_course"/>
+			<include name="deleting_student"/>
+			<include name="createcategory"/>			
+		</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test-2">
+	 <classes>
+      <class name="TestCases.Admin_To_Student_Messaging_Test">
+		<methods>
+			<include name="DeletingStudentusingemailid"/>
+			<include name="deleteenrollment"/>
+			<include name="dashboardverify"/>
+			<include name="coursepageverify"/>			
+		</methods>
+      </class>
+    </classes>
+	
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
