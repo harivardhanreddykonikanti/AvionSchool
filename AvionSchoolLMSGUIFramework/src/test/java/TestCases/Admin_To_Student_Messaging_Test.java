@@ -57,7 +57,9 @@ public class Admin_To_Student_Messaging_Test extends Baseclass {
 		anmp.getMessagetextarea().sendKeys(random_msg);
 		UtilityClassObject.getTest().log(Status.INFO,"message entered into the text field");
 		anmp.getSentmessagebtn().click();
+		Thread.sleep(2000);
 		String conformmessage =ahp.getPopupnotification().getText();
+		Thread.sleep(2000);
 		UtilityClassObject.getTest().log(Status.INFO,"clicked on the send button");		
 		UtilityClassObject.getTest().log(Status.INFO,"message captured from the alert pop up");
 		//reading pop message for conformation 
