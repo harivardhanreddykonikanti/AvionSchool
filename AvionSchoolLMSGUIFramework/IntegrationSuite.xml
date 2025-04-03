@@ -12,7 +12,7 @@
 
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TestCases.Admin_To_Student_Messaging_Test"/>
+      <class name="TestCases.AvoinSchoolTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

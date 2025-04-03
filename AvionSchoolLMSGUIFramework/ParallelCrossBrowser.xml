@@ -7,13 +7,13 @@
   <test name="TestRunner-Chrome">
 	<parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="TestCases.Admin_To_Student_Messaging_Test"/>
+      <class name="TestCases.AvoinSchoolTest"/>
     </classes>
   </test> <!-- Test -->
   <test name="TestRunner-Edge">
 	<parameter name="browser" value="edge"></parameter>
     <classes>
-      <class name="TestCases.Admin_To_Student_Messaging_Test"/>
+      <class name="TestCases.AvoinSchoolTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -6,7 +6,7 @@
 	</listeners>
   <test name="Test-1">
     <classes>
-      <class name="TestCases.Admin_To_Student_Messaging_Test">
+      <class name="TestCases.AvoinSchoolTest">
 		<methods>
 			<include name="AdminMessaging"/>
 			<include name="Admin_Enroll_course"/>
@@ -18,7 +18,7 @@
   </test> <!-- Test -->
   <test name="Test-2">
 	 <classes>
-      <class name="TestCases.Admin_To_Student_Messaging_Test">
+      <class name="TestCases.AvoinSchoolTest">
 		<methods>
 			<include name="DeletingStudentusingemailid"/>
 			<include name="deleteenrollment"/>
