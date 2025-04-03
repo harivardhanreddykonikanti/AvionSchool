@@ -28,8 +28,8 @@ public class ListnerimplementatationClass implements ITestListener,ISuiteListene
 		String time = new Date().toString().replace(" ","_").replace(":","_");
 		//spark report configration
 		ExtentSparkReporter spark=new ExtentSparkReporter("./AdvanceReporting/report+"+time+".html");
-		spark.config().setDocumentTitle("CRM Test Suite Results");
-		spark.config().setReportName("CRM Report");
+		spark.config().setDocumentTitle("Avion School Suite Results");
+		spark.config().setReportName("LMS Report");
 		spark.config().setTheme(Theme.DARK);
 		//adding enviorment information and create test
 		report=new ExtentReports();
@@ -51,9 +51,7 @@ public class ListnerimplementatationClass implements ITestListener,ISuiteListene
 		ITestListener.super.onTestStart(result);
 		test = report.createTest(result.getMethod().getMethodName());
 		UtilityClassObject.setTest(test);
-		test.log(Status.INFO,result.getMethod().getMethodName()+"===> started <===");
-		
-		
+		test.log(Status.INFO,result.getMethod().getMethodName()+"===> started <===");		
 	}
 
 	@Override
@@ -100,7 +98,7 @@ public class ListnerimplementatationClass implements ITestListener,ISuiteListene
 	public void onStart(ITestContext context) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onStart(context);
-	}
+		}
 
 	@Override
 	public void onFinish(ITestContext context) {

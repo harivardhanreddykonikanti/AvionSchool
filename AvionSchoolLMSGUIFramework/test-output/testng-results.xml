@@ -1,44 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-03T00:07:28 IST" name="Default suite" finished-at="2025-04-03T00:08:49 IST" duration-ms="81483">
+  <suite started-at="2025-04-03T14:40:46 IST" name="Suite" finished-at="2025-04-03T14:46:28 IST" duration-ms="341836">
     <groups>
       <group name="systemtest">
-        <method signature="Admin_To_Student_Messaging_Test.createcategory()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@909217e]" name="createcategory" class="TestCases.Admin_To_Student_Messaging_Test"/>
+        <method signature="AvoinSchoolTest.AdminMessaging()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" name="AdminMessaging" class="TestCases.AvoinSchoolTest"/>
+        <method signature="AvoinSchoolTest.Admin_Enroll_course()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" name="Admin_Enroll_course" class="TestCases.AvoinSchoolTest"/>
+        <method signature="AvoinSchoolTest.createcategory()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" name="createcategory" class="TestCases.AvoinSchoolTest"/>
+        <method signature="AvoinSchoolTest.deleting_student()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" name="deleting_student" class="TestCases.AvoinSchoolTest"/>
+        <method signature="AvoinSchoolTest.AdminMessaging()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" name="AdminMessaging" class="TestCases.AvoinSchoolTest"/>
+        <method signature="AvoinSchoolTest.Admin_Enroll_course()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" name="Admin_Enroll_course" class="TestCases.AvoinSchoolTest"/>
+        <method signature="AvoinSchoolTest.createcategory()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" name="createcategory" class="TestCases.AvoinSchoolTest"/>
+        <method signature="AvoinSchoolTest.deleting_student()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" name="deleting_student" class="TestCases.AvoinSchoolTest"/>
       </group> <!-- systemtest -->
+      <group name="smoketest">
+        <method signature="AvoinSchoolTest.coursepageverify()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" name="coursepageverify" class="TestCases.AvoinSchoolTest"/>
+        <method signature="AvoinSchoolTest.dashboardverify()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" name="dashboardverify" class="TestCases.AvoinSchoolTest"/>
+        <method signature="AvoinSchoolTest.coursepageverify()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" name="coursepageverify" class="TestCases.AvoinSchoolTest"/>
+        <method signature="AvoinSchoolTest.dashboardverify()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" name="dashboardverify" class="TestCases.AvoinSchoolTest"/>
+      </group> <!-- smoketest -->
+      <group name="integrationtest">
+        <method signature="AvoinSchoolTest.DeletingStudentusingemailid()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" name="DeletingStudentusingemailid" class="TestCases.AvoinSchoolTest"/>
+        <method signature="AvoinSchoolTest.deleteenrollment()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" name="deleteenrollment" class="TestCases.AvoinSchoolTest"/>
+        <method signature="AvoinSchoolTest.DeletingStudentusingemailid()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" name="DeletingStudentusingemailid" class="TestCases.AvoinSchoolTest"/>
+        <method signature="AvoinSchoolTest.deleteenrollment()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" name="deleteenrollment" class="TestCases.AvoinSchoolTest"/>
+      </group> <!-- integrationtest -->
     </groups>
-    <test started-at="2025-04-03T00:07:28 IST" name="Default test" finished-at="2025-04-03T00:08:49 IST" duration-ms="81483">
-      <class name="TestCases.Admin_To_Student_Messaging_Test">
-        <test-method is-config="true" signature="configBeforeSuit()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@909217e]" started-at="2025-04-03T00:07:27 IST" name="configBeforeSuit" finished-at="2025-04-03T00:07:28 IST" duration-ms="862" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBeforeSuit -->
-        <test-method is-config="true" signature="configbeforeclass()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@909217e]" started-at="2025-04-03T00:07:28 IST" name="configbeforeclass" finished-at="2025-04-03T00:07:37 IST" duration-ms="9448" status="PASS">
+    <test started-at="2025-04-03T14:40:46 IST" name="TestRunner-Chrome" finished-at="2025-04-03T14:46:15 IST" duration-ms="328559">
+      <class name="TestCases.AvoinSchoolTest">
+        <test-method is-config="true" signature="configbeforeclass(java.lang.String)[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:40:46 IST" name="configbeforeclass" finished-at="2025-04-03T14:40:53 IST" duration-ms="6513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configbeforeclass -->
-        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@909217e]" started-at="2025-04-03T00:07:37 IST" name="configbeforemethod" finished-at="2025-04-03T00:08:10 IST" duration-ms="32405" status="PASS">
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:40:53 IST" name="configbeforemethod" finished-at="2025-04-03T14:41:02 IST" duration-ms="9606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configbeforemethod -->
-        <test-method signature="createcategory()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@909217e]" started-at="2025-04-03T00:08:10 IST" name="createcategory" finished-at="2025-04-03T00:08:32 IST" duration-ms="22312" status="PASS">
+        <test-method signature="AdminMessaging()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:41:02 IST" name="AdminMessaging" finished-at="2025-04-03T14:41:32 IST" duration-ms="29387" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createcategory -->
-        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@909217e]" started-at="2025-04-03T00:08:32 IST" name="configaftermethod" finished-at="2025-04-03T00:08:45 IST" duration-ms="12926" status="PASS">
+        </test-method> <!-- AdminMessaging -->
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:41:32 IST" name="configaftermethod" finished-at="2025-04-03T14:41:44 IST" duration-ms="12653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configaftermethod -->
-        <test-method is-config="true" signature="configafterclass()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@909217e]" started-at="2025-04-03T00:08:45 IST" name="configafterclass" finished-at="2025-04-03T00:08:49 IST" duration-ms="4323" status="PASS">
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:41:44 IST" name="configbeforemethod" finished-at="2025-04-03T14:41:52 IST" duration-ms="7316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configbeforemethod -->
+        <test-method signature="Admin_Enroll_course()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:41:52 IST" name="Admin_Enroll_course" finished-at="2025-04-03T14:42:03 IST" duration-ms="10975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_Enroll_course -->
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:42:03 IST" name="configaftermethod" finished-at="2025-04-03T14:42:15 IST" duration-ms="12678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configaftermethod -->
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:42:15 IST" name="configbeforemethod" finished-at="2025-04-03T14:42:24 IST" duration-ms="8656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configbeforemethod -->
+        <test-method signature="DeletingStudentusingemailid()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:42:24 IST" name="DeletingStudentusingemailid" finished-at="2025-04-03T14:43:04 IST" duration-ms="39649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletingStudentusingemailid -->
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:43:04 IST" name="configaftermethod" finished-at="2025-04-03T14:43:16 IST" duration-ms="12633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configaftermethod -->
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:43:16 IST" name="configbeforemethod" finished-at="2025-04-03T14:43:24 IST" duration-ms="7175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configbeforemethod -->
+        <test-method signature="coursepageverify()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:43:24 IST" name="coursepageverify" finished-at="2025-04-03T14:43:25 IST" duration-ms="1292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coursepageverify -->
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:43:25 IST" name="configaftermethod" finished-at="2025-04-03T14:43:37 IST" duration-ms="12638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configaftermethod -->
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:43:37 IST" name="configbeforemethod" finished-at="2025-04-03T14:43:46 IST" duration-ms="8466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configbeforemethod -->
+        <test-method signature="createcategory()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:43:46 IST" name="createcategory" finished-at="2025-04-03T14:44:07 IST" duration-ms="21052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcategory -->
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:44:07 IST" name="configaftermethod" finished-at="2025-04-03T14:44:20 IST" duration-ms="12723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configaftermethod -->
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:44:20 IST" name="configbeforemethod" finished-at="2025-04-03T14:44:27 IST" duration-ms="7134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configbeforemethod -->
+        <test-method signature="dashboardverify()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:44:27 IST" name="dashboardverify" finished-at="2025-04-03T14:44:27 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardverify -->
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:44:27 IST" name="configaftermethod" finished-at="2025-04-03T14:44:40 IST" duration-ms="12695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configaftermethod -->
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:44:40 IST" name="configbeforemethod" finished-at="2025-04-03T14:44:47 IST" duration-ms="7233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configbeforemethod -->
+        <test-method signature="deleteenrollment()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:44:47 IST" name="deleteenrollment" finished-at="2025-04-03T14:45:01 IST" duration-ms="13819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteenrollment -->
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:45:01 IST" name="configaftermethod" finished-at="2025-04-03T14:45:14 IST" duration-ms="12623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configaftermethod -->
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:45:14 IST" name="configbeforemethod" finished-at="2025-04-03T14:45:21 IST" duration-ms="7088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configbeforemethod -->
+        <test-method signature="deleting_student()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:45:21 IST" name="deleting_student" finished-at="2025-04-03T14:45:59 IST" duration-ms="38041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleting_student -->
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:45:59 IST" name="configaftermethod" finished-at="2025-04-03T14:46:11 IST" duration-ms="12702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configaftermethod -->
+        <test-method is-config="true" signature="configafterclass()[pri:0, instance:TestCases.AvoinSchoolTest@48075da3]" started-at="2025-04-03T14:46:11 IST" name="configafterclass" finished-at="2025-04-03T14:46:15 IST" duration-ms="3326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configafterclass -->
-        <test-method is-config="true" signature="configAftersuit()[pri:0, instance:TestCases.Admin_To_Student_Messaging_Test@909217e]" started-at="2025-04-03T00:08:49 IST" name="configAftersuit" finished-at="2025-04-03T00:08:49 IST" duration-ms="10" status="PASS">
+      </class> <!-- TestCases.AvoinSchoolTest -->
+    </test> <!-- TestRunner-Chrome -->
+    <test started-at="2025-04-03T14:40:46 IST" name="TestRunner-Edge" finished-at="2025-04-03T14:46:28 IST" duration-ms="341836">
+      <class name="TestCases.AvoinSchoolTest">
+        <test-method is-config="true" signature="configBeforeSuit()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:40:46 IST" name="configBeforeSuit" finished-at="2025-04-03T14:40:46 IST" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeSuit -->
+        <test-method is-config="true" signature="configbeforeclass(java.lang.String)[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:40:46 IST" name="configbeforeclass" finished-at="2025-04-03T14:40:55 IST" duration-ms="9156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configbeforeclass -->
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:40:55 IST" name="configbeforemethod" finished-at="2025-04-03T14:41:04 IST" duration-ms="8943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configbeforemethod -->
+        <test-method signature="AdminMessaging()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:41:04 IST" name="AdminMessaging" finished-at="2025-04-03T14:41:34 IST" duration-ms="29714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminMessaging -->
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:41:34 IST" name="configaftermethod" finished-at="2025-04-03T14:41:47 IST" duration-ms="12714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configaftermethod -->
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:41:47 IST" name="configbeforemethod" finished-at="2025-04-03T14:41:56 IST" duration-ms="9120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configbeforemethod -->
+        <test-method signature="Admin_Enroll_course()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:41:56 IST" name="Admin_Enroll_course" finished-at="2025-04-03T14:42:06 IST" duration-ms="9684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_Enroll_course -->
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:42:06 IST" name="configaftermethod" finished-at="2025-04-03T14:42:18 IST" duration-ms="12840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configaftermethod -->
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:42:18 IST" name="configbeforemethod" finished-at="2025-04-03T14:42:26 IST" duration-ms="7463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configbeforemethod -->
+        <test-method signature="DeletingStudentusingemailid()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:42:26 IST" name="DeletingStudentusingemailid" finished-at="2025-04-03T14:43:05 IST" duration-ms="39146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletingStudentusingemailid -->
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:43:05 IST" name="configaftermethod" finished-at="2025-04-03T14:43:18 IST" duration-ms="12708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configaftermethod -->
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:43:18 IST" name="configbeforemethod" finished-at="2025-04-03T14:43:25 IST" duration-ms="7334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configbeforemethod -->
+        <test-method signature="coursepageverify()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:43:25 IST" name="coursepageverify" finished-at="2025-04-03T14:43:26 IST" duration-ms="1110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coursepageverify -->
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:43:26 IST" name="configaftermethod" finished-at="2025-04-03T14:43:39 IST" duration-ms="12734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configaftermethod -->
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:43:39 IST" name="configbeforemethod" finished-at="2025-04-03T14:43:48 IST" duration-ms="8861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configbeforemethod -->
+        <test-method signature="createcategory()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:43:48 IST" name="createcategory" finished-at="2025-04-03T14:44:09 IST" duration-ms="21062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcategory -->
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:44:09 IST" name="configaftermethod" finished-at="2025-04-03T14:44:22 IST" duration-ms="12706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configaftermethod -->
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:44:22 IST" name="configbeforemethod" finished-at="2025-04-03T14:44:32 IST" duration-ms="10433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configbeforemethod -->
+        <test-method signature="dashboardverify()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:44:32 IST" name="dashboardverify" finished-at="2025-04-03T14:44:32 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardverify -->
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:44:32 IST" name="configaftermethod" finished-at="2025-04-03T14:44:45 IST" duration-ms="12741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configaftermethod -->
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:44:45 IST" name="configbeforemethod" finished-at="2025-04-03T14:44:52 IST" duration-ms="7207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configbeforemethod -->
+        <test-method signature="deleteenrollment()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:44:52 IST" name="deleteenrollment" finished-at="2025-04-03T14:45:06 IST" duration-ms="13574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteenrollment -->
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:45:06 IST" name="configaftermethod" finished-at="2025-04-03T14:45:18 IST" duration-ms="12757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configaftermethod -->
+        <test-method is-config="true" signature="configbeforemethod()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:45:18 IST" name="configbeforemethod" finished-at="2025-04-03T14:45:28 IST" duration-ms="9740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configbeforemethod -->
+        <test-method signature="deleting_student()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:45:28 IST" name="deleting_student" finished-at="2025-04-03T14:46:06 IST" duration-ms="38321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleting_student -->
+        <test-method is-config="true" signature="configaftermethod()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:46:06 IST" name="configaftermethod" finished-at="2025-04-03T14:46:19 IST" duration-ms="12838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configaftermethod -->
+        <test-method is-config="true" signature="configafterclass()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:46:19 IST" name="configafterclass" finished-at="2025-04-03T14:46:28 IST" duration-ms="8749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configafterclass -->
+        <test-method is-config="true" signature="configAftersuit()[pri:0, instance:TestCases.AvoinSchoolTest@66982506]" started-at="2025-04-03T14:46:28 IST" name="configAftersuit" finished-at="2025-04-03T14:46:28 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAftersuit -->
-      </class> <!-- TestCases.Admin_To_Student_Messaging_Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- TestCases.AvoinSchoolTest -->
+    </test> <!-- TestRunner-Edge -->
+  </suite> <!-- Suite -->
 </testng-results>

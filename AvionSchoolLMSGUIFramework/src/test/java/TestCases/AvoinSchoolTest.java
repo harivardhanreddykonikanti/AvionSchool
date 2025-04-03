@@ -231,6 +231,7 @@ public class AvoinSchoolTest extends Baseclass {
 		String subcategory = child_category+randomnumber;
 		//actual execution starts
 		//creating parent category
+		Thread.sleep(5000);
 		ahp.getCategoriesmainlink().click();
 		ahp.getAddnewcategrolink().click();
 		UtilityClassObject.getTest().log(Status.INFO,"clicked on create new category link");
@@ -402,7 +403,7 @@ public class AvoinSchoolTest extends Baseclass {
 		Thread.sleep(2000);
 		aesp.getEnrolstudentbtn().click();
 		UtilityClassObject.getTest().log(Status.INFO,"clicked on enrollment button");
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		//deleting enrollment
 		ahp.getEnrollhistory().click();
 		UtilityClassObject.getTest().log(Status.INFO,"clicked on enrollment history page");
