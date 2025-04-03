@@ -442,6 +442,7 @@ public class AvoinSchoolTest extends Baseclass {
 	}
 	@Test(groups = "smoketest")
 	public void coursepageverify() throws EncryptedDocumentException, IOException {
+
 		System.out.println("executing smoke test 2");
 		//creating object for the specific class
 		AdminHomepage ahp=new AdminHomepage(driver);
@@ -462,5 +463,5 @@ public class AvoinSchoolTest extends Baseclass {
 		Assert.assertEquals(flag,true);
 		UtilityClassObject.getTest().log(Status.PASS,"course text is successfully verified at the header");
 	}
-	
+
 }
