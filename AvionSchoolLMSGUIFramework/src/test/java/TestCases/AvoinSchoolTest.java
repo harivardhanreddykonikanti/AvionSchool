@@ -27,7 +27,7 @@ import com.AvionSchool.lms.objectRepository.Signup_Page;
 import com.AvionSchool.lms.objectRepository.WelcomePage;
 import com.aventstack.extentreports.Status;
 @Listeners(com.AvionSchool.lms.listenerutlity.ListnerimplementatationClass.class)
-public class Admin_To_Student_Messaging_Test extends Baseclass {
+public class AvoinSchoolTest extends Baseclass {
 	@Test(groups = "systemtest")
 	public void AdminMessaging() throws InterruptedException, EncryptedDocumentException, IOException {
 		//creating object for required classes
